@@ -1,0 +1,151 @@
+body{
+    font-size: 1.5rem;
+}
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 2rem;
+}
+p{
+    color: #8f8f8f;
+}
+#title {
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.3rem;
+}
+.download-button{
+    margin: 6% 4% 6% 0;
+}
+.title-image{
+    width: 55%;
+    transform: rotate(24deg);
+    position: absolute;
+    right: 25%;
+}
+#features{
+    padding: 5% 15%;
+    padding-bottom: 2%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.fas{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fal{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+.fal:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #e66858;
+    color: #fff;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #e66858;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    color: aliceblue;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    height: 1.5;
+    font-weight: 900;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.twit{
+    color: #55acee;
+}
+.face{
+    color: #3b5998;
+}
+.insta{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gmail{
+    height: 23px;
+    width: 23px;
+    margin-bottom: 5px;
+}
+.social-icon{
+    margin: 20px 10px;
+}
